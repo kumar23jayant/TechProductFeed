@@ -1,0 +1,67 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "title": "React Native",
+      "description": "Inside Facebook, Jordan Walke found a way to generate UI elements for iOS from a background JavaScript thread.They decided to organize an internal Hackathon to perfect this prototype in order to be able to build native apps with this technology.After months of development, Facebook released the first version for the React JavaScript Configuration in 2015. During a technical talk, Christopher Chedeau explained that Facebook was already using React Native in production for their Group App and their Ads Manager App.",
+      "imageUrl": "https://miro.medium.com/max/700/1*C3kxjCrJy-aWSMpe2chfaA.png",
+      "founderProfile": "Jordan Walke",
+      "upvoteCount": 132,
+      "type": "EdTech"
+    },
+    {
+      "id": 2,
+      "title": "Autonomous Vehicles",
+      "description": "The future of transportation will never be the same as it is now, once autonomous vehicles will hit the market. Certain Predictions imply that the adoption of self-driving cars will reduce traffic-related issues by nearly 90%.",
+      "imageUrl": "https://www.smartcitiesworld.net/AcuCustom/Sitename/DAM/014/Autonomous-vehicle-AdobeStock_174958313_rm.png",
+      "founderProfile": "Elon Musk",
+      "upvoteCount": 240,
+      "type": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "title": "Check Point CloudGuard",
+      "description": "Check Point Software Technologies unveiled in February a family of cloud security products to address an increase in account hijacking and multivector attacks on cloud workloads and applications.",
+      "imageUrl": "https://i.ytimg.com/vi/0eovLPJW_XA/maxresdefault.jpg",
+      "founderProfile": "Gil Shwed",
+      "upvoteCount": 110,
+      "type": "Machine Learning"
+    },
+    {
+      "id": 4,
+      "title": "Lynch Biologics",
+      "description": "Lynch Biologics’s recombinant human platelet-derived growth factor-BB (rhPDGF-BB) stimulates the growth of mesenchymal stem cells. It helps in blood vessel formation, blood vessel growth from existing blood vessel tissue and mitogenesis.",
+      "imageUrl": "https://pii4iyceb31ybf3y2hgowrom-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/rhPDGF-BB.png",
+      "founderProfile": "Sam Lynch",
+      "upvoteCount": 120,
+      "type": "Medical"
+    },
+    {
+      "id": 5,
+      "title": "Google's worker robots",
+      "description": "Google is planning to produce worker robots with personalities. The technology giant recently won a patent for the ambitious project. Engineers will enable the machines to download personalities from a cloud-based system. The robots have the capacity to store and display multiple personalities when interacting with humans.",
+      "imageUrl": "https://www.alvexo.com/blog/wp-content/uploads/2019/09/Robots-1000x483.jpg",
+      "founderProfile": "Sebastian Thrun",
+      "upvoteCount": 435,
+      "type": "EdTech"
+    },
+    {
+      "id": 6,
+      "title": "iStent Inject",
+      "description": "Lynch Biologics’s recombinant human plateletGlaukos’s iStent Inject is designed to reduce intraocular pressure safely and effectively in patients who have been diagnosed with primary open-angle glaucoma, pseudo-exfoliative glaucoma or pigmentary glaucoma.",
+      "imageUrl": "https://pii4iyceb31ybf3y2hgowrom-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/istent-inject-768x388.png",
+      "founderProfile": "Thomas Burns",
+      "upvoteCount": 135,
+      "type": "Medical"
+    },
+    {
+      "id": 7,
+      "title": "Starlink Project",
+      "description": "Starlink is a satellite internet constellation being constructed by SpaceX providing satellite Internet access.The constellation will consist of thousands of mass-produced small satellites in low Earth orbit (LEO), working in combination with ground transceivers. SpaceX plans to sell some of the satellites for military, scientific, or exploratory purposes.The SpaceX satellite development facility in Redmond, Washington houses the Starlink research, development, manufacturing, and orbit control.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Starlink_Mission_%2847926144123%29.jpg/580px-Starlink_Mission_%2847926144123%29.jpg",
+      "founderProfile": "Elon Musk",
+      "upvoteCount": 239,
+      "type": "Trending"
+    }
+  ]
+}
