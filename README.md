@@ -8,7 +8,6 @@ An iOS application which contains a curated feed of trending tech products and i
   - Run **pod install**.
   -  Open .xcworkspace file in project folder with xcode.
 
-## 
 
 ![Screenshot](./Screenshots/Feed.png)
 
