@@ -7,21 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14C596C0017B90D402DC0A05 /* Pods_Sprinklr_SprinklrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AABC8147BC31A388FCF2C7 /* Pods_Sprinklr_SprinklrUITests.framework */; };
 		27E43C4E7FF128ED46D9B901 /* Pods_Sprinklr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C344CC49F3183C250FB5BB3 /* Pods_Sprinklr.framework */; };
 		2F1C4861257BA4FE001539ED /* AnimatableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C4860257BA4FE001539ED /* AnimatableButton.swift */; };
-		2F1C4867257CE126001539ED /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C4866257CE126001539ED /* FeedViewControllerTests.swift */; };
 		2FC5C386257B54D800A731B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C385257B54D800A731B3 /* AppDelegate.swift */; };
 		2FC5C388257B54D800A731B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C387257B54D800A731B3 /* SceneDelegate.swift */; };
-		2FC5C38A257B54D800A731B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C389257B54D800A731B3 /* ViewController.swift */; };
 		2FC5C38D257B54D800A731B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5C38B257B54D800A731B3 /* Main.storyboard */; };
 		2FC5C38F257B54D900A731B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5C38E257B54D900A731B3 /* Assets.xcassets */; };
 		2FC5C392257B54D900A731B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5C390257B54D900A731B3 /* LaunchScreen.storyboard */; };
-		2FC5C39D257B54D900A731B3 /* SprinklrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C39C257B54D900A731B3 /* SprinklrTests.swift */; };
-		2FC5C3A8257B54DA00A731B3 /* SprinklrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3A7257B54DA00A731B3 /* SprinklrUITests.swift */; };
 		2FC5C3BD257B586F00A731B3 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3B7257B586F00A731B3 /* FeedPresenter.swift */; };
 		2FC5C3BE257B586F00A731B3 /* FeedWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3B8257B586F00A731B3 /* FeedWorker.swift */; };
-		2FC5C3BF257B586F00A731B3 /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3B9257B586F00A731B3 /* FeedRouter.swift */; };
 		2FC5C3C0257B586F00A731B3 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3BA257B586F00A731B3 /* FeedModels.swift */; };
 		2FC5C3C1257B586F00A731B3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3BB257B586F00A731B3 /* FeedViewController.swift */; };
 		2FC5C3C2257B586F00A731B3 /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3BC257B586F00A731B3 /* FeedInteractor.swift */; };
@@ -29,48 +23,21 @@
 		2FC5C3C8257B698F00A731B3 /* FeedProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5C3C6257B698F00A731B3 /* FeedProductTableViewCell.xib */; };
 		2FC5C3CC257B720A00A731B3 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5C3CB257B720A00A731B3 /* model.json */; };
 		2FC5C3D0257B763E00A731B3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5C3CF257B763E00A731B3 /* ImageDownloader.swift */; };
-		E8606C2BFFAEE3F3F3181A9B /* Pods_SprinklrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2F723D8B2DC7C747F3B123 /* Pods_SprinklrTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2FC5C399257B54D900A731B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2FC5C37A257B54D800A731B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FC5C381257B54D800A731B3;
-			remoteInfo = Sprinklr;
-		};
-		2FC5C3A4257B54DA00A731B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2FC5C37A257B54D800A731B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FC5C381257B54D800A731B3;
-			remoteInfo = Sprinklr;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C344CC49F3183C250FB5BB3 /* Pods_Sprinklr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sprinklr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2F723D8B2DC7C747F3B123 /* Pods_SprinklrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SprinklrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1C4860257BA4FE001539ED /* AnimatableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableButton.swift; sourceTree = "<group>"; };
-		2F1C4866257CE126001539ED /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
 		2FC5C382257B54D800A731B3 /* Sprinklr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprinklr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC5C385257B54D800A731B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FC5C387257B54D800A731B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FC5C389257B54D800A731B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FC5C38C257B54D800A731B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FC5C38E257B54D900A731B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC5C391257B54D900A731B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FC5C393257B54D900A731B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FC5C398257B54D900A731B3 /* SprinklrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprinklrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC5C39C257B54D900A731B3 /* SprinklrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprinklrTests.swift; sourceTree = "<group>"; };
-		2FC5C39E257B54D900A731B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FC5C3A3257B54DA00A731B3 /* SprinklrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprinklrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC5C3A7257B54DA00A731B3 /* SprinklrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprinklrUITests.swift; sourceTree = "<group>"; };
-		2FC5C3A9257B54DA00A731B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC5C3B7257B586F00A731B3 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 		2FC5C3B8257B586F00A731B3 /* FeedWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedWorker.swift; sourceTree = "<group>"; };
-		2FC5C3B9257B586F00A731B3 /* FeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
 		2FC5C3BA257B586F00A731B3 /* FeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
 		2FC5C3BB257B586F00A731B3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2FC5C3BC257B586F00A731B3 /* FeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInteractor.swift; sourceTree = "<group>"; };
@@ -96,22 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FC5C395257B54D900A731B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8606C2BFFAEE3F3F3181A9B /* Pods_SprinklrTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FC5C3A0257B54DA00A731B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14C596C0017B90D402DC0A05 /* Pods_Sprinklr_SprinklrUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,20 +79,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		2F1C4865257CE107001539ED /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				2F1C4866257CE126001539ED /* FeedViewControllerTests.swift */,
-			);
-			path = Feed;
-			sourceTree = "<group>";
-		};
 		2FC5C379257B54D800A731B3 = {
 			isa = PBXGroup;
 			children = (
 				2FC5C384257B54D800A731B3 /* Sprinklr */,
-				2FC5C39B257B54D900A731B3 /* SprinklrTests */,
-				2FC5C3A6257B54DA00A731B3 /* SprinklrUITests */,
 				2FC5C383257B54D800A731B3 /* Products */,
 				0200CEB8042418EF2E694038 /* Pods */,
 				7233290FBC3A79FD88509C58 /* Frameworks */,
@@ -152,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				2FC5C382257B54D800A731B3 /* Sprinklr.app */,
-				2FC5C398257B54D900A731B3 /* SprinklrTests.xctest */,
-				2FC5C3A3257B54DA00A731B3 /* SprinklrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,7 +104,6 @@
 				2FC5C3B5257B583300A731B3 /* Scenes */,
 				2FC5C385257B54D800A731B3 /* AppDelegate.swift */,
 				2FC5C387257B54D800A731B3 /* SceneDelegate.swift */,
-				2FC5C389257B54D800A731B3 /* ViewController.swift */,
 				2FC5C38B257B54D800A731B3 /* Main.storyboard */,
 				2FC5C38E257B54D900A731B3 /* Assets.xcassets */,
 				2FC5C390257B54D900A731B3 /* LaunchScreen.storyboard */,
@@ -173,25 +111,6 @@
 				2FC5C393257B54D900A731B3 /* Info.plist */,
 			);
 			path = Sprinklr;
-			sourceTree = "<group>";
-		};
-		2FC5C39B257B54D900A731B3 /* SprinklrTests */ = {
-			isa = PBXGroup;
-			children = (
-				2F1C4865257CE107001539ED /* Feed */,
-				2FC5C39C257B54D900A731B3 /* SprinklrTests.swift */,
-				2FC5C39E257B54D900A731B3 /* Info.plist */,
-			);
-			path = SprinklrTests;
-			sourceTree = "<group>";
-		};
-		2FC5C3A6257B54DA00A731B3 /* SprinklrUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2FC5C3A7257B54DA00A731B3 /* SprinklrUITests.swift */,
-				2FC5C3A9257B54DA00A731B3 /* Info.plist */,
-			);
-			path = SprinklrUITests;
 			sourceTree = "<group>";
 		};
 		2FC5C3B5257B583300A731B3 /* Scenes */ = {
@@ -208,7 +127,6 @@
 				2FC5C3C3257B695E00A731B3 /* Views */,
 				2FC5C3B7257B586F00A731B3 /* FeedPresenter.swift */,
 				2FC5C3B8257B586F00A731B3 /* FeedWorker.swift */,
-				2FC5C3B9257B586F00A731B3 /* FeedRouter.swift */,
 				2FC5C3BA257B586F00A731B3 /* FeedModels.swift */,
 				2FC5C3BB257B586F00A731B3 /* FeedViewController.swift */,
 				2FC5C3BC257B586F00A731B3 /* FeedInteractor.swift */,
@@ -282,45 +200,6 @@
 			productReference = 2FC5C382257B54D800A731B3 /* Sprinklr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FC5C397257B54D900A731B3 /* SprinklrTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FC5C3AF257B54DA00A731B3 /* Build configuration list for PBXNativeTarget "SprinklrTests" */;
-			buildPhases = (
-				871EF06C69083F537B616212 /* [CP] Check Pods Manifest.lock */,
-				2FC5C394257B54D900A731B3 /* Sources */,
-				2FC5C395257B54D900A731B3 /* Frameworks */,
-				2FC5C396257B54D900A731B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FC5C39A257B54D900A731B3 /* PBXTargetDependency */,
-			);
-			name = SprinklrTests;
-			productName = SprinklrTests;
-			productReference = 2FC5C398257B54D900A731B3 /* SprinklrTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2FC5C3A2257B54DA00A731B3 /* SprinklrUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FC5C3B2257B54DA00A731B3 /* Build configuration list for PBXNativeTarget "SprinklrUITests" */;
-			buildPhases = (
-				3E201BCF29590972C3B72059 /* [CP] Check Pods Manifest.lock */,
-				2FC5C39F257B54DA00A731B3 /* Sources */,
-				2FC5C3A0257B54DA00A731B3 /* Frameworks */,
-				2FC5C3A1257B54DA00A731B3 /* Resources */,
-				7A12F7BCB31C17693ECA2AB3 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FC5C3A5257B54DA00A731B3 /* PBXTargetDependency */,
-			);
-			name = SprinklrUITests;
-			productName = SprinklrUITests;
-			productReference = 2FC5C3A3257B54DA00A731B3 /* SprinklrUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -333,14 +212,6 @@
 				TargetAttributes = {
 					2FC5C381257B54D800A731B3 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					2FC5C397257B54D900A731B3 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 2FC5C381257B54D800A731B3;
-					};
-					2FC5C3A2257B54DA00A731B3 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 2FC5C381257B54D800A731B3;
 					};
 				};
 			};
@@ -358,8 +229,6 @@
 			projectRoot = "";
 			targets = (
 				2FC5C381257B54D800A731B3 /* Sprinklr */,
-				2FC5C397257B54D900A731B3 /* SprinklrTests */,
-				2FC5C3A2257B54DA00A731B3 /* SprinklrUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,20 +243,6 @@
 				2FC5C3CC257B720A00A731B3 /* model.json in Resources */,
 				2FC5C38F257B54D900A731B3 /* Assets.xcassets in Resources */,
 				2FC5C38D257B54D800A731B3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FC5C396257B54D900A731B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FC5C3A1257B54DA00A731B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,28 +264,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sprinklr/Pods-Sprinklr-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E201BCF29590972C3B72059 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sprinklr-SprinklrUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4E7D233E2A0AB1725614C839 /* [CP] Check Pods Manifest.lock */ = {
@@ -455,45 +288,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A12F7BCB31C17693ECA2AB3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sprinklr-SprinklrUITests/Pods-Sprinklr-SprinklrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sprinklr-SprinklrUITests/Pods-Sprinklr-SprinklrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sprinklr-SprinklrUITests/Pods-Sprinklr-SprinklrUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		871EF06C69083F537B616212 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SprinklrTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -502,8 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC5C3C0257B586F00A731B3 /* FeedModels.swift in Sources */,
-				2FC5C3BF257B586F00A731B3 /* FeedRouter.swift in Sources */,
-				2FC5C38A257B54D800A731B3 /* ViewController.swift in Sources */,
 				2FC5C3BE257B586F00A731B3 /* FeedWorker.swift in Sources */,
 				2F1C4861257BA4FE001539ED /* AnimatableButton.swift in Sources */,
 				2FC5C386257B54D800A731B3 /* AppDelegate.swift in Sources */,
@@ -516,37 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FC5C394257B54D900A731B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F1C4867257CE126001539ED /* FeedViewControllerTests.swift in Sources */,
-				2FC5C39D257B54D900A731B3 /* SprinklrTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FC5C39F257B54DA00A731B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FC5C3A8257B54DA00A731B3 /* SprinklrUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2FC5C39A257B54D900A731B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2FC5C381257B54D800A731B3 /* Sprinklr */;
-			targetProxy = 2FC5C399257B54D900A731B3 /* PBXContainerItemProxy */;
-		};
-		2FC5C3A5257B54DA00A731B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2FC5C381257B54D800A731B3 /* Sprinklr */;
-			targetProxy = 2FC5C3A4257B54DA00A731B3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2FC5C38B257B54D800A731B3 /* Main.storyboard */ = {
@@ -718,90 +480,6 @@
 			};
 			name = Release;
 		};
-		2FC5C3B0257B54DA00A731B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C8A8C8DF122A912CAC0357 /* Pods-SprinklrTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SprinklrTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayant.SprinklrTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprinklr.app/Sprinklr";
-			};
-			name = Debug;
-		};
-		2FC5C3B1257B54DA00A731B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3547D9060E2D24B5BD379BD6 /* Pods-SprinklrTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SprinklrTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayant.SprinklrTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprinklr.app/Sprinklr";
-			};
-			name = Release;
-		};
-		2FC5C3B3257B54DA00A731B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 719EB146E675417D2ACCA8EF /* Pods-Sprinklr-SprinklrUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SprinklrUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayant.SprinklrUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sprinklr;
-			};
-			name = Debug;
-		};
-		2FC5C3B4257B54DA00A731B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA254D6083748B5E673FE23 /* Pods-Sprinklr-SprinklrUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SprinklrUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayant.SprinklrUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sprinklr;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -819,24 +497,6 @@
 			buildConfigurations = (
 				2FC5C3AD257B54DA00A731B3 /* Debug */,
 				2FC5C3AE257B54DA00A731B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FC5C3AF257B54DA00A731B3 /* Build configuration list for PBXNativeTarget "SprinklrTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2FC5C3B0257B54DA00A731B3 /* Debug */,
-				2FC5C3B1257B54DA00A731B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FC5C3B2257B54DA00A731B3 /* Build configuration list for PBXNativeTarget "SprinklrUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2FC5C3B3257B54DA00A731B3 /* Debug */,
-				2FC5C3B4257B54DA00A731B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

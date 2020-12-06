@@ -8,10 +8,20 @@
 
 import UIKit
 
-class ImageDownloader {
+// MARK: Image Downloader Manager
+
+final class ImageDownloader {
+    
+    /* Creating singleton */
     static let shared = ImageDownloader()
+    private init() {}
+    
+    /* USed for caching */
     private let imageCache = NSCache<NSString, UIImage>()
+    
+    /* Thread safety */
     private let Q = DispatchQueue(label: "queue.imageCache", attributes: .concurrent)
+    
 
     func dowload(url: URL, completion: @escaping (UIImage?, URL?) -> Void) {
         let cache =  URLCache.shared
@@ -52,6 +62,8 @@ class ImageDownloader {
     }
 }
 
+
+// MARK: Extension UIImageView
 
 extension UIImageView {
 

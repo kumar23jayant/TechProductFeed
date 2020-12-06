@@ -8,11 +8,20 @@
 
 import UIKit
 
+// MARK: Feed Product Table View Cell Delegate
+//
+// Exposes methods to be called on delegate stores in Cell.
+
 protocol FeedProductTableViewCellDelegate: class {
     func openShareSheet(title: String)
     func bookmarkProduct(with index: Int)
     func upvote(for index: Int)
 }
+
+
+// MARK: Feed Product Table View Cell
+//
+// Cell for rendering each Tech Product.
 
 class FeedProductTableViewCell: UITableViewCell {
 
@@ -29,18 +38,31 @@ class FeedProductTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        setroundedCorner()
+        setRoundedCorner()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
     
-    private func setroundedCorner() {
+    
+    /* Reset bookmark selection state on resue. */
+    
+    override func prepareForReuse() {
+        bookmarkButton.setSelection(state: false)
+    }
+    
+    
+    /* Provide rounded courners to cell container view. */
+    
+    private func setRoundedCorner() {
         rootView.layer.cornerRadius = 10
         rootView.clipsToBounds = true
     }
     
+    
+    /* Populate cell with view model data. */
+
     func prepareCell(with data: DisplayProduct) {
         title.text = data.title
         subtitle.text = data.description
@@ -48,10 +70,7 @@ class FeedProductTableViewCell: UITableViewCell {
         bookmarkButton.setSelection(state: data.isBookmarked ?? false)
         upvoteCount.text = "\(data.upvoteCount)"
     }
-    
-    override func prepareForReuse() {
-        bookmarkButton.setSelection(state: false)
-    }
+
     
     @IBAction func upvoteClicked(_ sender: Any) {
         guard let index = indexPath?.row else {
@@ -74,4 +93,5 @@ class FeedProductTableViewCell: UITableViewCell {
     @IBAction func shareClicked(_ sender: Any) {
         self.delegate?.openShareSheet(title: title.text ?? "")
     }
+    
 }

@@ -1,11 +1,27 @@
 //
-//  LikeButton.swift
-//  Animations Demo
+//  AnimatableButton.swift
+//  Sprinklr
 //
-//  Created by Jayant Kumar Yadav on 5/12/20.
+//  Created by B0206635 on 05/12/20.
+//  Copyright © 2020 B0206635. All rights reserved.
 //
 
 import UIKit
+
+
+// MARK: Constants
+
+struct AnimatableButtonConstants {
+    static let selectedImage = "bookmark_filled"
+    static let deselectedImage = "bookmark_empty"
+}
+
+
+// MARK: Animatable Button
+//
+// This UIButton subclass is used to provide an animation
+// of scale in/out on button click.
+
 
 class AnimatableButton: UIButton {
   
@@ -19,8 +35,8 @@ class AnimatableButton: UIButton {
         }
     }
   
-    private let unlikedImage = UIImage(named: "bookmark_empty")
-    private let likedImage = UIImage(named: "bookmark_filled")
+    private let unlikedImage = UIImage(named: AnimatableButtonConstants.deselectedImage)
+    private let likedImage = UIImage(named: AnimatableButtonConstants.selectedImage)
 
     private let unlikedScale: CGFloat = 0.8
     private let likedScale: CGFloat = 1.1
